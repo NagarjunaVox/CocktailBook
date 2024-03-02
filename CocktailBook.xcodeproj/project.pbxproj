@@ -95,6 +95,8 @@
 		E8324E6D262076EB00FD2124 = {
 			isa = PBXGroup;
 			children = (
+				F0AD6F5B2B933ED0000702BD /* ViewModel */,
+				F0AD6F5C2B933EF2000702BD /* Model */,
 				E8324EBD26207B0900FD2124 /* CocktailsAPI */,
 				E8324E78262076EB00FD2124 /* CocktailBook */,
 				E8324E8F262076EE00FD2124 /* CocktailBookTests */,
@@ -153,11 +155,25 @@
 				E8324EBE26207B2900FD2124 /* CocktailsAPI.swift */,
 				E8324EC626207B6100FD2124 /* CocktailsAPIError.swift */,
 				E8324ECB26207B9100FD2124 /* FakeCocktailsAPI.swift */,
-				F0AD6F312B9201B5000702BD /* Cocktail.swift */,
-				F0AD6F332B9202D8000702BD /* CocktailViewModel.swift */,
 				E8324ED32624809F00FD2124 /* sample.json */,
 			);
 			path = CocktailsAPI;
+			sourceTree = "<group>";
+		};
+		F0AD6F5B2B933ED0000702BD /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				F0AD6F332B9202D8000702BD /* CocktailViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		F0AD6F5C2B933EF2000702BD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F0AD6F312B9201B5000702BD /* Cocktail.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
